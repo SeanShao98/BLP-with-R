@@ -3,7 +3,7 @@ A stylized BLP framework with R
 
 ## intro
 
-This project originates from the EIO (3254) problem set at **SUFE**. Specifically, the task involves estimating a random coefficient demand model for the beer industry. The model is highly simplified, featuring only one linear parameter (price elasticity) and two nonlinear parameters (income demographics and structural error).
+This project originates from the EIO (3254) problem set at **SUFE**. Specifically, the problem set involves estimating a random coefficient demand model for the beer industry. The model is highly simplified, featuring only one linear parameter (price elasticity) and two nonlinear parameters (income demographics and structural error).
 
 ## repositories
 
@@ -19,6 +19,6 @@ This project originates from the EIO (3254) problem set at **SUFE**. Specificall
 
 Although the R-based BLP model package [BLPestimatoR](https://cran.r-project.org/web/packages/BLPestimatoR/vignettes/blp_intro.html) is available, building a BLP model from scratch through a tutorial remains meaningful from the perspective of extensibility.
 
-The algorithm is highly efficient, fully leveraging **vectorized computation** and compatible with data.table for accelerated processing. Any practical application can be extended by simply adding parameter variables.
+The algorithm is highly efficient, fully leveraging **vectorized computation** and compatible with `data.table` acceleration. Any practical application can be extended by simply adding parameter variables.
 
 Anyway, it is just a course exercise after all.
